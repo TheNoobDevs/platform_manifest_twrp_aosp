@@ -167,7 +167,6 @@
     <remove-project name="platform/external/gemmlowp"/>
     <remove-project name="platform/external/geojson-jackson"  />
     <remove-project name="platform/external/geonames"  />
-    <remove-project name="platform/external/gflags"  />
     <remove-project name="platform/external/giflib"/>
     <remove-project name="platform/external/glide"/>
     <remove-project name="platform/external/google-benchmark"  />
@@ -753,7 +752,6 @@
     <remove-project name="platform/tools/acloud"/>
     <remove-project name="platform/tools/apifinder"/>
     <remove-project name="platform/tools/apkzlib"/>
-    <remove-project name="platform/tools/asuite"/>
     <remove-project name="platform/tools/carrier_settings"/>
     <remove-project name="platform/tools/currysrc"/>
     <remove-project name="platform/tools/dexter"/>
