@@ -28,6 +28,8 @@
     <remove-project name="platform/system/security" />
     <remove-project name="platform/system/update_engine" />
     <remove-project name="platform/system/vold" />
+    <remove-project name="platform/system/tools/aidl" />
+    <remove-project name="platform/cts" />
 -->
 
     <!-- We need the LOS forks of these repos -->
@@ -68,6 +70,8 @@
     <project path="system/security" name="android_system_security" remote="TeamWin" revision="android-14"/>
     <project path="system/update_engine" name="android_system_update_engine" remote="TeamWin" revision="android-14"/>
     <project path="system/vold" name="android_system_vold" remote="TeamWin" revision="android-14"/>
+    <project path="system/tools/aidl" name="android_system_tools_aidl" remote="TeamWin" revision="android-14"/>
+    <project path="cts" name="android_cts" remote="TeamWin" revision="android-14"/>
 -->
 
     <!-- Use TeamWin custom vendor repo for build system -->
@@ -91,6 +95,9 @@
     <!-- Include ntfs_3g for NTFS support -->
     <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="LineageOS" revision="lineage-21.0"/>
 
+     <!-- Include for legacy wrappedkey support -->
+    <project path="hardware/interfaces" name="android_hardware_interfaces" remote="TeamWin" revision="android-14" />
+
     <!-- Include for legacy wrappedkey support, Hack for r17 -->
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="LineageOS" revision="fe73af6086a9775e6d9b2820e0c01003e81f3b1b" />
 
@@ -100,6 +107,7 @@
     <!-- Common qcom repos -->
     <project name="android_device_qcom_common" path="device/qcom/common" remote="TeamWin" revision="android-12.1" />
     <project name="android_device_qcom_twrp-common" path="device/qcom/twrp-common" remote="TeamWin" revision="android-12.1" />
+    <project name="android_device_qcom_twrp-common" path="device/qcom/twrp-common" remote="TeamWin" revision="android-14" />
 
     <project name="android_hardware_qcom_bootctrl" path="hardware/qcom-caf/bootctrl" remote="LineageOS" revision="lineage-21.0-caf" />
     <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="LineageOS" revision="lineage-21.0" />
